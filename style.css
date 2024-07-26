@@ -1,0 +1,25 @@
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images>img {
+    width: 20rem;
+    height: 20rem;
+    margin: 0.4rem;
+    border-radius: 1rem;
+    filter: grayscale(100);
+    transition: all 0.8s;
+}
+
+.images>img:hover {
+    filter: grayscale(0);
+}
+
+h1 {
+    font-size: 3rem;
+    width: max-content;
+    border-bottom: 1px solid black;
+    margin: 0 auto 1rem auto;
+}
